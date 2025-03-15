@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nfreg/static/css/main.b45794a8.css",
+    "main.js": "/nfreg/static/js/main.ae21b790.js",
+    "index.html": "/nfreg/index.html",
+    "main.b45794a8.css.map": "/nfreg/static/css/main.b45794a8.css.map",
+    "main.ae21b790.js.map": "/nfreg/static/js/main.ae21b790.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b45794a8.css",
+    "static/js/main.ae21b790.js"
+  ]
+}

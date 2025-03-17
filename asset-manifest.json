@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/nfreg/npm%20build/static/css/main.b45794a8.css",
-    "main.js": "/nfreg/npm%20build/static/js/main.b146b41f.js",
-    "index.html": "/nfreg/npm%20build/index.html",
-    "main.b45794a8.css.map": "/nfreg/npm%20build/static/css/main.b45794a8.css.map",
-    "main.b146b41f.js.map": "/nfreg/npm%20build/static/js/main.b146b41f.js.map"
+    "main.css": "/nfreg/static/css/main.b45794a8.css",
+    "main.js": "/nfreg/static/js/main.b146b41f.js",
+    "index.html": "/nfreg/index.html",
+    "main.b45794a8.css.map": "/nfreg/static/css/main.b45794a8.css.map",
+    "main.b146b41f.js.map": "/nfreg/static/js/main.b146b41f.js.map"
   },
   "entrypoints": [
     "static/css/main.b45794a8.css",

@@ -8,7 +8,7 @@ const UsersTable = () => {
     useEffect(() => {
   //      axios.get(`${process.env.REACT_APP_API_URL}/api/users`)
  //     hard-coded path to backend server
-        axios.get(`https://nfreg-backend.vercel.app//api/users`)
+        axios.get(`https://nfreg-backend.vercel.app/api/users`)
         .then(response => {
             console.log("Fetched users:", response.data);
             setUsers(response.data);

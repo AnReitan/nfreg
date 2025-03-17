@@ -8,8 +8,11 @@ const UsersTable = () => {
     useEffect(() => {
   //      axios.get(`${process.env.REACT_APP_API_URL}/api/users`)
  //     hard-coded path to backend server
-        axios.get(`https://nfreg-backend-1n1icp7zw-andre-reitans-projects.vercel.app/api/users`)
-        .then(response => setUsers(response.data))
+        axios.get(`https://nfreg-backend.vercel.app//api/users`)
+        .then(response => {
+            console.log("Fetched users:", response.data);
+            setUsers(response.data);
+        })
         .catch(error => console.error("Error fetching data:", error));
     }, []);
   
@@ -22,7 +25,7 @@ const UsersTable = () => {
             </h2>
 
             <div className="table-container">
-            <Link to='/user/add' className= "btn btn-green"> Legg til bruker 1</Link>
+            <Link to='/user/add' className= "btn btn-green"> Legg til bruker 2</Link>
                 <table>
                     <thead>
                         <tr>
